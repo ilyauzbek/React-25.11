@@ -3,7 +3,7 @@ import './App.scss'
 import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Home from './pages/Home'
-import Brands from './components/Brands/Brands'
+import Product from './pages/Product'
 
 
 const App = () => {
@@ -15,12 +15,13 @@ const App = () => {
       
     <Routes>
       <Route path='/'  element={<Home />}/>
+      <Route path='/'  element={<Product/>}/>
 
     </Routes>
 
 
 
-    <Brands/>
+    
     </>
   )
 }

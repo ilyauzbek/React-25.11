@@ -1,16 +1,16 @@
 import React from 'react'
-import s from './Header.module.scss'
+import './Header.scss'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-    <header className={s.header}>
-        <div className="container">
-            <nav className={s.nav}>
-                <Link className={s.logo}>SHOP.CO</Link>
+    <header className="header">
+       
+            <nav className="nav">
+                <Link className="logo">SHOP.CO</Link>
 
-                <div className={s.menu}>
+                <div className="menu">
                     <Link>Shop</Link>
                     <Link>On Sale</Link>
                     <Link>New Arrivals</Link>
@@ -18,17 +18,17 @@ const Header = () => {
                 </div>
 
 
-                <input className={s.search} type="text" placeholder='Search for products...' />
+                <input className="search" type="text" placeholder='Search for products...' />
 
 
-                <div className={s.box}>
+                <div className="box">
                     <img src="/icon-1 (4).svg" alt="" />
                     <img src="/icon-2 (4).svg" alt="" />
                 </div>
 
 
             </nav>
-        </div>
+       
     </header>
   
     
