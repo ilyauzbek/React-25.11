@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
        
             <nav className="nav">
-                <Link className="logo">SHOP.CO</Link>
+                <Link to={'/'} className="logo">SHOP.CO</Link>
 
                 <div className="menu">
                     <Link>Shop</Link>

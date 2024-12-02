@@ -4,6 +4,7 @@ import s from './Category.module.scss'
 
 import Casrd from '../Card/Casrd'
 import Products from '/public/products.json'
+import { Link } from 'react-router-dom'
 
 const Category = () => {
   return (
@@ -13,7 +14,9 @@ const Category = () => {
             <div className={s.wrapper}>
 
                 {Products.map(card => (
-                    <Casrd key={card.id} image={card.image} name={card.name} price={card.price}/>
+                   <Link  key={card.id} to={`/product/${card.id}`}  className='{s.link}'>
+                    <Casrd  image={card.image} name={card.name} price={card.price}/>
+                   </Link>
                 ))}
             </div>
         </div>
