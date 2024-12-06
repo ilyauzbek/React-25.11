@@ -1,21 +1,21 @@
 import React from 'react'
 import s from './Product.module.scss'
 
-const Product = ({ Product }) => {
+const Product = ({ product }) => {
   return (
     <>
     <section className={s.Productwrap}>
-        <div className="container">
+       
             <div className={s.wrap}>
                 <div className={s.images}>
 
                     <div>
-                        <img src={Product.image} alt="" />
-                        <img src={Product.image} alt="" />
-                        <img src={Product.image} alt="" />
+                        <img src={product.image} alt="" />
+                        <img src={product.image} alt="" />
+                        <img src={product.image} alt="" />
                     </div>
 
-                    <img src={Product.image} alt="" />
+                    <img src={product.image} alt="" />
                 </div>
 
                 <div className={s.box}>
@@ -23,8 +23,8 @@ const Product = ({ Product }) => {
                         <h2>{Product.name}</h2>
                         <h3>⭐⭐⭐⭐ 4.5</h3>
                         <div className={s.price} >
-                            <b>{Product.price} cum</b>
-                            <s>{Math.floor(Product.price * 1.1)} cum</s>
+                            <b>{product.price}</b>
+                            <s>{Math.floor(product.price * 1.1)} </s>
                         </div>
 
                         <p>This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
@@ -63,7 +63,6 @@ const Product = ({ Product }) => {
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     
     
