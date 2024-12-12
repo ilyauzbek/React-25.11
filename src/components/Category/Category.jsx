@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 const Category = () => {
   return (
     <>
-        <div className="container">
+        
 
             <div className={s.wrapper}>
 
@@ -19,7 +19,7 @@ const Category = () => {
                    </Link>
                 ))}
             </div>
-        </div>
+        
     </>
   )
 }
