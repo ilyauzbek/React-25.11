@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <img src="/public/hero-img.png" alt="Hero" data-aos="zoom-in" data-aos-delay="1600" />
+          <img src="/hero-img.png" alt="Hero" data-aos="zoom-in" data-aos-delay="1600" />
         </div>
       </div>
     </section>

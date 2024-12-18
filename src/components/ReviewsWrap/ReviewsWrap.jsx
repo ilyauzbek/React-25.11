@@ -10,7 +10,7 @@ const ReviewsWrap = () => {
                 <div className={s.card}>
                     <div>
                         <p>⭐⭐⭐⭐</p>
-                        <img src="/Frame 27.svg" alt="" />
+                        <img src="/Frame27.svg" alt="" />
                     </div>
 
 
@@ -21,7 +21,7 @@ const ReviewsWrap = () => {
                 <div className={s.card}>
                     <div>
                         <p>⭐⭐⭐⭐</p>
-                        <img src="/Frame 27.svg" alt="" />
+                        <img src="/Frame27.svg" alt="" />
                     </div>
 
 
@@ -32,7 +32,7 @@ const ReviewsWrap = () => {
                 <div className={s.card}>
                     <div>
                         <p>⭐⭐⭐⭐</p>
-                        <img src="/Frame 27.svg" alt="" />
+                        <img src="/Frame27.svg" alt="" />
                     </div>
 
 
@@ -43,7 +43,7 @@ const ReviewsWrap = () => {
                 <div className={s.card}>
                     <div>
                         <p>⭐⭐⭐⭐</p>
-                        <img src="/Frame 27.svg" alt="" />
+                        <img src="/Frame27.svg" alt="" />
                     </div>
 
 
@@ -54,7 +54,7 @@ const ReviewsWrap = () => {
                 <div className={s.card}>
                     <div>
                         <p>⭐⭐⭐⭐</p>
-                        <img src="/Frame 27.svg" alt="" />
+                        <img src="/Frame27.svg" alt="" />
                     </div>
 
 
@@ -65,7 +65,7 @@ const ReviewsWrap = () => {
                 <div className={s.card}>
                     <div>
                         <p>⭐⭐⭐⭐</p>
-                        <img src="/Frame 27.svg" alt="" />
+                        <img src="/Frame27.svg" alt="" />
                     </div>
 
 

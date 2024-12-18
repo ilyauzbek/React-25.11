@@ -31,8 +31,8 @@ const Header = () => {
         />
 
         <div className="box" data-aos="fade-left">
-          <img src="/icon-1 (4).svg" alt="" />
-          <img src="/icon-2 (4).svg" alt="" />
+          <img src="/icon-1(4).svg" alt="" />
+          <img src="/icon-2(4).svg" alt="" />
         </div>
       </nav>
     </header>
