@@ -71,13 +71,14 @@
   }
 }
 
-.hero__200{
-    border-left: 2px solid rgba(0, 0, 0, 0.7);
-    padding: 0 22px 0 19px;
-    transition: 0.4s;
+.hero__200 {
+  border-left: 2px solid rgba(0, 0, 0, 0.7);
+  padding: 0 22px 0 19px;
+  transition: all 0.4s;
 
-    &:hover{
-      scale: 1.2;
-      padding: 0 28px 0 28px;
-    }
+  &:hover {
+   scale: 1.2 ;
+   padding: 0 28px;
+  }
 }
+
