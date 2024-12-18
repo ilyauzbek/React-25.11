@@ -11,9 +11,7 @@ const Casrd = ({ image = '', name = 'Soon...', rate = '0', price = 'Нету в 
   return (
     <div className={s.card} data-aos="flip-up">
       <img src={image} alt={name} className={s.card__image} />
-      <h3 className={s.text}>
         <h3 data-aos="fade-up" data-aos-delay="200">{name}</h3>
-      </h3>
       <b data-aos="fade-up" data-aos-delay="400">{price}</b>
     </div>
   );
