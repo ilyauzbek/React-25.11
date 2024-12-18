@@ -1,10 +1,9 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-
 import ProductWrap from '../components/ProductWrap/ProductWrap'
-
 import Products from '/public/products.json'
 import TabsWrap from '../components/TabsWrap/TabsWrap'
+
 
 
 
@@ -20,7 +19,7 @@ const SinglePage = () => {
     
   return (
     <>
-    <ProductWrap product={product}/>
+    <ProductWrap product={product} />
     <TabsWrap/> 
      </>
   )

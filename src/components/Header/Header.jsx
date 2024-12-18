@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="header" data-aos="fade-down">
       <nav className="nav">
-        <Link to="/" className="logo" data-aos="fade-right">
+        <Link to={'/'} className="logo" data-aos="fade-right">
           SHOP.CO
         </Link>
 

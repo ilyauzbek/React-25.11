@@ -29,8 +29,8 @@ const Product = ({ product }) => {
                 <h2 data-aos="fade-down" data-aos-delay="200">{product.name}</h2>
                 <h3 data-aos="fade-down" data-aos-delay="300">⭐⭐⭐⭐ 4.5</h3>
                 <div className={s.price} data-aos="fade-down" data-aos-delay="400">
-                  <b>{product.price} Сум</b>
-                  <s>{Math.floor(product.price * 1.1)} Сум</s>
+                  <b>{product.price} $</b>
+                  <s>{Math.floor(product.price * 1.1)} $</s>
                 </div>
                 <p className={s.text} data-aos="fade-down" data-aos-delay="500">
                   This graphic t-shirt which is perfect for any occasion. Crafted

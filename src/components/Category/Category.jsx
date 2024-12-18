@@ -14,8 +14,8 @@ const Category = () => {
             <div className={s.wrapper}>
 
                 {Products.slice(0.4).map(card => (
-                   <Link  key={card.id} to={`/product/${card.id}`}  className={`${s.link}`}>
-                    <Casrd  image={card.image} name={card.name} price={card.price}/>
+                   <Link key={card.id} to={`/product/${card.id}`}  className={s.link}>
+                    <Casrd image={card.image} name={card.name} price={card.price} discount={card.discount}/>
                    </Link>
                 ))}
             </div>
