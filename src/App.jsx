@@ -4,7 +4,9 @@ import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Home from './pages/Home'
 import SinglePage from './pages/SinglePage'
-import Cart from './pages/CArt'
+import Cart from './pages/Cart'
+
+
 
 
 const App = () => {
@@ -19,7 +21,7 @@ const App = () => {
 
       <Route path='/product/:id' element={<SinglePage />}/>
 
-      <Route path='/cart' element={<Cart/>}/>
+      <Route path='/Cart' element={<Cart/>}/>
 
     </Routes>
 
